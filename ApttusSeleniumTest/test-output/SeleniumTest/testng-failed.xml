@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumTest]">
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="tests.RestAssuredTest">
+        <methods>
+          <include name="restTest21"/>
+          <include name="restTest22"/>
+          <include name="restTest5"/>
+          <include name="restTest4"/>
+          <include name="restTest1"/>
+          <include name="restTest3"/>
+        </methods>
+      </class> <!-- tests.RestAssuredTest -->
+      <class name="tests.ProductCheckoutTest">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="productCheckOut"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProductCheckoutTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [SeleniumTest] -->

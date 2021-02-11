@@ -1,0 +1,471 @@
+11/02/2021 16:03:00 testbase.TestBase Browser Launched and login to application
+11/02/2021 16:03:15 testbase.TestBase Login Done
+11/02/2021 16:03:28 testbase.TestBase Product Added To Cart
+11/02/2021 16:03:28 testbase.TestBase Checkout and validation
+11/02/2021 16:03:37 testbase.TestBase test Completed
+11/02/2021 16:03:37 testbase.TestBase Browser Closed
+11/02/2021 16:03:41 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:41 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:42 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:42 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:42 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:42 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:42 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:42 org.apache.http.impl.conn.DefaultClientConnection Sending request: POST /data/3.0/stations HTTP/1.1
+11/02/2021 16:03:42 org.apache.http.wire  >> "POST /data/3.0/stations HTTP/1.1[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "Content-Length: 141[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.headers >> POST /data/3.0/stations HTTP/1.1
+11/02/2021 16:03:42 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:42 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:42 org.apache.http.headers >> Content-Length: 141
+11/02/2021 16:03:42 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:42 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:42 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:42 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:42 org.apache.http.wire  >> "{[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "  "external_id": "DEMO_TEST001",[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "  "name": "Interview Station12345",[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "  "latitude": 33.33,[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "  "longitude": -111.43,[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "  "altitude": 444[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  >> "}"
+11/02/2021 16:03:42 org.apache.http.wire  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:42 GMT[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Content-Length: 107[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:42 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 401 Unauthorized
+11/02/2021 16:03:42 org.apache.http.headers << HTTP/1.1 401 Unauthorized
+11/02/2021 16:03:42 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:42 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:42 GMT
+11/02/2021 16:03:42 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:42 org.apache.http.headers << Content-Length: 107
+11/02/2021 16:03:42 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:42 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:42 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:42 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:42 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:42 org.apache.http.impl.client.DefaultHttpClient Authentication required
+11/02/2021 16:03:42 org.apache.http.impl.client.DefaultHttpClient api.openweathermap.org:80 requested authentication
+11/02/2021 16:03:42 org.apache.http.impl.client.DefaultHttpClient Response contains no authentication challenges
+11/02/2021 16:03:42 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:42 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:42 org.apache.http.wire  << "{"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}"
+11/02/2021 16:03:42 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@552fee7a
+11/02/2021 16:03:42 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:44 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:44 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:44 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:44 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:44 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:44 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:44 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:44 org.apache.http.impl.conn.DefaultClientConnection Sending request: POST /data/3.0/stations?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:44 org.apache.http.wire  >> "POST /data/3.0/stations?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "Content-Length: 141[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.headers >> POST /data/3.0/stations?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:44 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:44 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:44 org.apache.http.headers >> Content-Length: 141
+11/02/2021 16:03:44 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:44 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:44 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:44 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:44 org.apache.http.wire  >> "{[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "  "external_id": "DEMO_TEST001",[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "  "name": "Interview Station12345",[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "  "latitude": 33.33,[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "  "longitude": -111.43,[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "  "altitude": 444[\r][\n]"
+11/02/2021 16:03:44 org.apache.http.wire  >> "}"
+11/02/2021 16:03:45 org.apache.http.wire  << "HTTP/1.1 201 Created[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:45 GMT[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Content-Length: 301[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:45 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 201 Created
+11/02/2021 16:03:45 org.apache.http.headers << HTTP/1.1 201 Created
+11/02/2021 16:03:45 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:45 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:45 GMT
+11/02/2021 16:03:45 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:45 org.apache.http.headers << Content-Length: 301
+11/02/2021 16:03:45 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:45 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:45 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:45 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:45 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:45 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:45 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:45 org.apache.http.wire  << "{"ID":"6025080909e7430001b9db0b","updated_at":"2021-02-11T10:33:45.139535987Z","created_at":"2021-02-11T10:33:45.139535706Z","user_id":"60239273c8e1ae0007f85b7e","external_id":"DEMO_TEST001","name":"Interview Station12345","latitude":33.33,"longitude":-111.43,"altitude":444,"rank":10,"source_type":5}"
+11/02/2021 16:03:45 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@650a1aff
+11/02/2021 16:03:45 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:45 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:45 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:46 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:46 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:46 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:46 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:46 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:46 org.apache.http.impl.conn.DefaultClientConnection Sending request: POST /data/3.0/stations?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:46 org.apache.http.wire  >> "POST /data/3.0/stations?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "Content-Length: 139[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.headers >> POST /data/3.0/stations?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:46 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:46 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:46 org.apache.http.headers >> Content-Length: 139
+11/02/2021 16:03:46 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:46 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:46 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:46 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:46 org.apache.http.wire  >> "{[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "  "external_id": "Interview1",[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "  "name": "Interview Station123456",[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "  "latitude": 33.44,[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "  "longitude": -12.44,[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "  "altitude": 444[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  >> "}"
+11/02/2021 16:03:46 org.apache.http.wire  << "HTTP/1.1 201 Created[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:46 GMT[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Content-Length: 299[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:46 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 201 Created
+11/02/2021 16:03:46 org.apache.http.headers << HTTP/1.1 201 Created
+11/02/2021 16:03:46 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:46 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:46 GMT
+11/02/2021 16:03:46 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:46 org.apache.http.headers << Content-Length: 299
+11/02/2021 16:03:46 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:46 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:46 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:46 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:46 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:46 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:46 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:46 org.apache.http.wire  << "{"ID":"6025080a09e7430001b9db0c","updated_at":"2021-02-11T10:33:46.522560995Z","created_at":"2021-02-11T10:33:46.522560858Z","user_id":"60239273c8e1ae0007f85b7e","external_id":"Interview1","name":"Interview Station123456","latitude":33.44,"longitude":-12.44,"altitude":444,"rank":10,"source_type":5}"
+11/02/2021 16:03:46 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3dc82e6a
+11/02/2021 16:03:46 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:46 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54033<->178.128.25.248:80 closed
+11/02/2021 16:03:46 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54032<->178.128.25.248:80 closed
+11/02/2021 16:03:46 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:46 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:47 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:47 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:47 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:47 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:47 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:47 org.apache.http.impl.conn.DefaultClientConnection Sending request: GET /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:47 org.apache.http.wire  >> "GET /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.headers >> GET /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:47 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:47 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:47 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:47 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:47 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:47 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:47 org.apache.http.wire  << "HTTP/1.1 200 OK[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:47 GMT[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Content-Length: 236[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:47 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 200 OK
+11/02/2021 16:03:47 org.apache.http.headers << HTTP/1.1 200 OK
+11/02/2021 16:03:47 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:47 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:47 GMT
+11/02/2021 16:03:47 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:47 org.apache.http.headers << Content-Length: 236
+11/02/2021 16:03:47 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:47 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:47 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:47 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:47 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:47 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:47 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:47 org.apache.http.wire  << "{"id":"6025080909e7430001b9db0b","created_at":"2021-02-11T10:33:45.139Z","updated_at":"2021-02-11T10:33:45.139Z","external_id":"DEMO_TEST001","name":"Interview Station12345","longitude":-111.43,"latitude":33.33,"altitude":444,"rank":10}"
+11/02/2021 16:03:47 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@472c9f88
+11/02/2021 16:03:47 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:48 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:48 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:48 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:48 org.apache.http.impl.conn.DefaultClientConnection Sending request: GET /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:48 org.apache.http.wire  >> "GET /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.headers >> GET /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:48 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:48 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:48 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:48 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:48 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:48 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:48 org.apache.http.wire  << "HTTP/1.1 200 OK[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:48 GMT[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Content-Length: 234[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 200 OK
+11/02/2021 16:03:48 org.apache.http.headers << HTTP/1.1 200 OK
+11/02/2021 16:03:48 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:48 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:48 GMT
+11/02/2021 16:03:48 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:48 org.apache.http.headers << Content-Length: 234
+11/02/2021 16:03:48 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:48 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:48 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:48 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:48 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:48 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:48 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:48 org.apache.http.wire  << "{"id":"6025080a09e7430001b9db0c","created_at":"2021-02-11T10:33:46.522Z","updated_at":"2021-02-11T10:33:46.522Z","external_id":"Interview1","name":"Interview Station123456","longitude":-12.44,"latitude":33.44,"altitude":444,"rank":10}"
+11/02/2021 16:03:48 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b47b7f5
+11/02/2021 16:03:48 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:48 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:48 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:48 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:48 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:48 org.apache.http.impl.conn.DefaultClientConnection Sending request: DELETE /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:48 org.apache.http.wire  >> "DELETE /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:48 org.apache.http.headers >> DELETE /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:48 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:48 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:48 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:48 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:48 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:48 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:49 org.apache.http.wire  << "HTTP/1.1 204 No Content[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:49 GMT[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 204 No Content
+11/02/2021 16:03:49 org.apache.http.headers << HTTP/1.1 204 No Content
+11/02/2021 16:03:49 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:49 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:49 GMT
+11/02/2021 16:03:49 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:49 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:49 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:49 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:49 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:49 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@322b09da
+11/02/2021 16:03:49 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:49 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:49 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:49 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:49 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:49 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:49 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:49 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:49 org.apache.http.impl.conn.DefaultClientConnection Sending request: DELETE /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:49 org.apache.http.wire  >> "DELETE /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:49 org.apache.http.headers >> DELETE /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:49 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:49 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:49 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:49 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:49 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:49 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:50 org.apache.http.wire  << "HTTP/1.1 204 No Content[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:50 GMT[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 204 No Content
+11/02/2021 16:03:50 org.apache.http.headers << HTTP/1.1 204 No Content
+11/02/2021 16:03:50 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:50 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:50 GMT
+11/02/2021 16:03:50 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:50 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:50 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:50 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:50 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:50 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1930a804
+11/02/2021 16:03:50 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:50 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:50 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:50 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:50 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:50 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:50 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:50 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:50 org.apache.http.impl.conn.DefaultClientConnection Sending request: DELETE /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:50 org.apache.http.wire  >> "DELETE /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:50 org.apache.http.headers >> DELETE /data/3.0/stations/6025080909e7430001b9db0b?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:50 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:50 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:50 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:50 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:50 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:50 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:51 org.apache.http.wire  << "HTTP/1.1 404 Not Found[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:51 GMT[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Content-Length: 45[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 404 Not Found
+11/02/2021 16:03:51 org.apache.http.headers << HTTP/1.1 404 Not Found
+11/02/2021 16:03:51 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:51 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:51 GMT
+11/02/2021 16:03:51 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:51 org.apache.http.headers << Content-Length: 45
+11/02/2021 16:03:51 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:51 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:51 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:51 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:51 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:51 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:51 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:51 org.apache.http.wire  << "{"code":404001,"message":"Station not found"}"
+11/02/2021 16:03:51 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1ccdc7aa
+11/02/2021 16:03:51 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54037<->178.128.25.248:80 closed
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54038<->178.128.25.248:80 closed
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54036<->178.128.25.248:80 closed
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54034<->178.128.25.248:80 closed
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54035<->178.128.25.248:80 closed
+11/02/2021 16:03:51 org.apache.http.impl.conn.BasicClientConnectionManager Get connection for route {}->http://api.openweathermap.org:80
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnectionOperator Connecting to api.openweathermap.org:80
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Connection 0.0.0.0:54031<->178.128.25.248:80 closed
+11/02/2021 16:03:51 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: ignoreCookies
+11/02/2021 16:03:51 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+11/02/2021 16:03:51 org.apache.http.client.protocol.RequestTargetAuthentication Target auth state: UNCHALLENGED
+11/02/2021 16:03:51 org.apache.http.client.protocol.RequestProxyAuthentication Proxy auth state: UNCHALLENGED
+11/02/2021 16:03:51 org.apache.http.impl.client.DefaultHttpClient Attempt 1 to execute request
+11/02/2021 16:03:51 org.apache.http.impl.conn.DefaultClientConnection Sending request: DELETE /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:51 org.apache.http.wire  >> "DELETE /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "Accept: */*[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "Host: api.openweathermap.org[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "Connection: Keep-Alive[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.wire  >> "[\r][\n]"
+11/02/2021 16:03:51 org.apache.http.headers >> DELETE /data/3.0/stations/6025080a09e7430001b9db0c?appid=2a843ee2fc05eeb573b1ba400a470af5 HTTP/1.1
+11/02/2021 16:03:51 org.apache.http.headers >> Content-Type: application/json; charset=UTF-8
+11/02/2021 16:03:51 org.apache.http.headers >> Accept: */*
+11/02/2021 16:03:51 org.apache.http.headers >> Host: api.openweathermap.org
+11/02/2021 16:03:51 org.apache.http.headers >> Connection: Keep-Alive
+11/02/2021 16:03:51 org.apache.http.headers >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+11/02/2021 16:03:51 org.apache.http.headers >> Accept-Encoding: gzip,deflate
+11/02/2021 16:03:52 org.apache.http.wire  << "HTTP/1.1 404 Not Found[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Server: openresty[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Date: Thu, 11 Feb 2021 10:33:52 GMT[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Content-Length: 45[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Connection: keep-alive[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Access-Control-Allow-Origin: *[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Access-Control-Allow-Credentials: true[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.wire  << "[\r][\n]"
+11/02/2021 16:03:52 org.apache.http.impl.conn.DefaultClientConnection Receiving response: HTTP/1.1 404 Not Found
+11/02/2021 16:03:52 org.apache.http.headers << HTTP/1.1 404 Not Found
+11/02/2021 16:03:52 org.apache.http.headers << Server: openresty
+11/02/2021 16:03:52 org.apache.http.headers << Date: Thu, 11 Feb 2021 10:33:52 GMT
+11/02/2021 16:03:52 org.apache.http.headers << Content-Type: application/json; charset=utf-8
+11/02/2021 16:03:52 org.apache.http.headers << Content-Length: 45
+11/02/2021 16:03:52 org.apache.http.headers << Connection: keep-alive
+11/02/2021 16:03:52 org.apache.http.headers << Access-Control-Allow-Origin: *
+11/02/2021 16:03:52 org.apache.http.headers << Access-Control-Allow-Credentials: true
+11/02/2021 16:03:52 org.apache.http.headers << Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+11/02/2021 16:03:52 org.apache.http.impl.client.DefaultHttpClient Connection can be kept alive indefinitely
+11/02/2021 16:03:52 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsing response as: application/json; charset=utf-8
+11/02/2021 16:03:52 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11/02/2021 16:03:52 org.apache.http.wire  << "{"code":404001,"message":"Station not found"}"
+11/02/2021 16:03:52 org.apache.http.impl.conn.BasicClientConnectionManager Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16e195cf
+11/02/2021 16:03:52 org.apache.http.impl.conn.BasicClientConnectionManager Connection can be kept alive indefinitely
